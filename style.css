@@ -1,0 +1,88 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resume {
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.header-content {
+    margin-left: 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-content p {
+    margin: 5px 0;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+section h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.job p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list span {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+

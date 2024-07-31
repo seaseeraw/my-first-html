@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* :root{
+    --main-bg-color: red;
+    --primary-color: blue;
+    --accent-color: green;
+    --padding-amount: 10px;
+ }
+ .class1{
+--class1-variable: aqua;
+ }
+ body{
+    background-color:var(--main-bg);
+ } */
+
+ .container{
+    display: flex;
+    background-color: aqua;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+ }
+ .container div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 5px;
+    align-content: center;
+    text-align: center;
+ }
+ .item-1{
+    flex-grow: 3;
+    order: 0;
+ }
+ .item-3{
+    order:0;
+    flex-shrink: 6;
+ }
+
+    </style>
+</head>
+<body>
+ <div class="container">
+<div class="item-1">1</div>
+<div class="item-2">2</div>
+<div class="item-3">3</div>
+<div class="item-4">4</div>
+<div class="item-5">5</div>
+<div class="item-6">6</div>
+ </div>   
+ 
+</body>
+</html>
